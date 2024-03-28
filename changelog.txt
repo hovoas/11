@@ -1,0 +1,11 @@
+*** FlyCoffee HTML - Changelog ***
+
+- version 1.0
+	free version of "FlyCoffee". Created by http://flytemplates.com/
+
+- Support is offered only for user that buy the premium version:
+http://flytemplates.com/product/restaurant-wordpress-theme/
+
+- You can use the free version only for a personal project
+
+- Note: All images all blurred, and is used only on demo presentation
