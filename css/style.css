@@ -1762,7 +1762,7 @@ textarea:focus {
   cursor: pointer;
 }
 .fly-restaurant-menu .fly-menu-category .fly-menu-image-array {
-  height: 100%;
+  height: 500px;
 }
 .fly-restaurant-menu .fly-menu-category .fly-menu-image-array img {
   display: none;
@@ -1798,6 +1798,9 @@ textarea:focus {
   .fly-restaurant-menu .fly-menu-category .fly-menu-content .field-submit input[type="submit"],
   .fly-restaurant-menu .fly-menu-category .fly-menu-content .comment-respond .comment-form p.form-submit input {
     padding: 7px 40px;
+  }
+  .fly-restaurant-menu .fly-menu-category .fly-menu-image-array {
+    height: 200px;
   }
 }
 /* Screen 568px */
@@ -2224,6 +2227,9 @@ textarea:focus {
   margin-right: 30px;
   margin-bottom: 15px;
 }
+.fly-dish-menu .fly-dish-menu-content li .fly-dish-menu-description .fly-dish-image img{
+  aspect-ratio: 1;
+}
 .fly-dish-menu .fly-dish-menu-content li .fly-dish-menu-description h5 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
@@ -2254,6 +2260,9 @@ textarea:focus {
 @media (max-width: 991px) {
   .fly-dish-menu {
     padding: 0 15px;
+  }
+  .fly-wrap-logo img{
+    width: 100px;
   }
 }
 /*Screen 568px*/
