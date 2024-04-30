@@ -2199,7 +2199,10 @@ textarea:focus {
   padding-bottom: 28.38983051px;
   margin-bottom: 28.38983051px;
 }
-.fly-dish-menu .fly-dish-menu-content {
+.fly-dish-menu .fly-dish-menu-content:not(.collapse:not(.in)) {
+  display: block;
+}
+.fly-dish-menu .fly-dish-menu-content .collap :not(.in) {
   display: block;
 }
 .fly-dish-menu .fly-dish-menu-content li {
