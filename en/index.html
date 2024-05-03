@@ -10,6 +10,7 @@
 <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en"><!--<![endif]-->
+
 <head>
     <title>Club 11</title>
     <meta charset="utf-8">
@@ -27,420 +28,462 @@
     <!--DateTime Picker-->
     <link href="../css/jquery.datetimepicker.css" media="screen" rel="stylesheet">
     <!-- Mobile menu (mmenu) -->
-    <link rel="stylesheet" href="../css/jquery.mmenu.all.css"/>
+    <link rel="stylesheet" href="../css/jquery.mmenu.all.css" />
     <!-- Style CSS -->
     <link href="../css/bootstrap.css" media="screen" rel="stylesheet">
     <link href="../css/style.css" media="screen" rel="stylesheet">
     <!-- Modernizr Library -->
     <script src="../js/lib/modernizr.min.js"></script>
 </head>
+
 <body><!-- Loading Spinner -->
-<div class="spinner">
-    <div class="line1"></div>
-    <div class="line2"></div>
-    <div class="line3"></div>
-    <div class="line4"></div>
-</div>
-<!--/ Loading Spinner -->
-<div id="page" class="hfeed site invisible">
-    <header class="fly-header-site fly-header-type-1 fly-sticky-header-on">
-        <a style="position: absolute;top: 45px; right: 15px;" href="https://www.club11.am/index.html"><img width="30" height="20" src="../images/arm.png" alt="Logo"/></a>
-        <div class="fly-nav-wrap fly-nav-left">
-            <nav class="fly-site-navigation primary-navigation" id="fly-menu-primary">
-                <ul class="fly-nav-menu">
-                    <li><a href="https://www.club11.am/en/index.html">HOME</a></li>
-                    <li><a href="https://www.club11.am/en/story.html">ABOUT US</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!--Logo-->
-        <div class="fly-wrap-logo"><a class="fly-logo" href="https://www.club11.am/en/index.html"> <img src="../images/11_logo.png" alt="Logo"/> </a></div>
-        <div class="fly-nav-wrap fly-nav-right">
-            <nav class="fly-site-navigation secondary-navigation" id="fly-menu-secondary">
-                <ul class="fly-nav-menu">
-                    <li><a href="https://www.club11.am/en/menu.html">MENU</a></li>
-                    <!-- <li><a href="news.html">NEWS</a></li> -->
-                    <li class="menu-item-has-children"><a href="https://www.club11.am/en/contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div id="main" class="site-main" role="main">
-        <!--Slider Full-->
-        <section class="fly-slider-full">
-            <div class="main-carousel default">
-                <div id="myCarousel" class="carousel slide">
-                    <div class="carousel-inner">
-                        <!-- Carousel items -->
-                        <div class="item active parallax" style="background-image:url(../images/Home-Slider/slide-2.jpg);">
-                            <div class="container">
-                                <div class="fly-itable">
-                                    <div class="fly-icell">
-                                        <div class="fly-wrap-text-slider">
-                                            <h1 class="fly-slider-title-before">WONDERFUL ATMOSPHERE<br>FULLY STOCKED BAR</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Carousel items -->
-                        <div class="item parallax" style="background-image:url(../images/Home-Slider/slide-1.jpg);">
-                            <div class="container">
-                                <div class="fly-itable">
-                                    <div class="fly-icell">
-                                        <div class="fly-wrap-text-slider">
-                                            <h1 class="fly-slider-title-before">DELICIOUS APPETIZERS<br>EXCELLENT SERVICE</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Carousel items -->
-                        <div class="item parallax" style="background-image:url(../images/Home-Slider/slide-3.jpg);">
-                            <div class="container">
-                                <div class="fly-itable">
-                                    <div class="fly-icell">
-                                        <div class="fly-wrap-text-slider">
-                                            <h1 class="fly-slider-title-before">TASTEFUL MUSIC<br>AMAZING DANCES</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Carousel Indicator-->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                </div>
+    <div class="spinner">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+        <div class="line4"></div>
+    </div>
+    <!--/ Loading Spinner -->
+    <div id="page" class="hfeed site invisible">
+        <header class="fly-header-site fly-header-type-1 fly-sticky-header-on">
+            <a style="position: absolute;top: 45px; right: 15px;" href="https://www.club11.am/index.html"><img
+                    width="30" height="20" src="../images/arm.png" alt="Logo" /></a>
+            <div class="fly-nav-wrap fly-nav-left">
+                <nav class="fly-site-navigation primary-navigation" id="fly-menu-primary">
+                    <ul class="fly-nav-menu">
+                        <li><a href="https://www.club11.am/en/index.html">HOME</a></li>
+                        <li><a href="https://www.club11.am/en/story.html">ABOUT US</a></li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-        <!--End Slider Full-->
-        <!--Restaurant Menu (HomePage)-->
-        <section class="fly-restaurant-menu">
-            <!--Food-->
-            <div class="fly-menu-category col-sm-6 col-md-6 col-xs-12">
-                <div class="fly-menu-image-array" data-time-change="3000">
-                    <!-- Image Size (Recommended 700px x 360px "Heights images be equal") -->
-                    <img src="../images/Menu/food-7.jpg" alt="Food 7" class="active-image"/>
-                </div>
-                <div class="fly-menu-content">
-                    <div class="fly-itable">
-                        <div class="fly-icell"><i class="flyicon-buzzer"></i>
-                            <h3 class="fly-title-menu">FOOD</h3>
-                            <a href="https://www.club11.am/en/menu.html" class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"><span>SHOW MORE</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Drinks-->
-            <div class="fly-menu-category col-sm-6 col-md-6 col-xs-12">
-                <div class="fly-menu-image-array" data-time-change="3000">
-                    <!-- Image Size (Recommended 700px x 360px "Heights images be equal") -->
-                    <img src="../images/Menu/home-img.jpg" alt="Drinks 7" class="active-image"/>
-                </div>
-                <div class="fly-menu-content">
-                    <div class="fly-itable">
-                        <div class="fly-icell"><i class="flyicon-drink"></i>
-                            <h3 class="fly-title-menu">DRINKS</h3>
-                            <a href="https://www.club11.am/en/menu.html" class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"><span>SHOW MORE</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End Restaurant Menu (HomePage)-->        <!--Section (Info Restaurant)-->
-        <section class="fly-info-box container-min">
-            <div class="container">
-                <div class="row">
-                    <div class="fly-divider-space space-md"></div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="fly-info-box-header">
-                            <h3 class="fly-info-box-title">CLUB 11</h3>
-                            <div class="fly-info-box-divider"></div>
-                        </div>
-                        <div class="fly-info-box-content">
-                            Come and enjoy drinks prepared by professional bartenders and dance to the best hits of all time.
-                        </div>
-                    </div>                    
-                </div>
-                <div class="row">
-                    <div class="fly-divider-space space-md"></div>
-                </div>
-            </div>
-        </section>
-        <!--End Section (Info Restaurant)-->
-        <!--Section Special Offers Slider-->
-        <section class="fly-wrap-slider-special-offers">
-            <div class="row">
-                <div class="fly-slider-special-offers">
-                    <ul id="fly-slider-special-offers">
-                        <li data-special-offers-slider="1" style="background-image: url('../images/Special-Offers-Slider/offer-1.jpg')">
-                            <a href="#" class="fly-wrap-offers">
-                                <div class="fly-content-offers-slider">
-                                    <div class="fly-itable">
-                                        <div class="fly-icell">
-                                            <span class="fly-offers-separator"></span>
-                                            <h2 class="fly-offers-title">Bruschetta</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li data-special-offers-slider="1" style="background-image: url('../images/Special-Offers-Slider/offer-2.jpg')">
-                            <a href="#" class="fly-wrap-offers">
-                                <div class="fly-content-offers-slider">
-                                    <div class="fly-itable">
-                                        <div class="fly-icell">
-                                            <span class="fly-offers-separator"></span>
-                                            <h2 class="fly-offers-title">Cheese Assortment</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li data-special-offers-slider="1" style="background-image: url('../images/Special-Offers-Slider/offer-3.jpg')">
-                            <a href="#" class="fly-wrap-offers">
-                                <div class="fly-content-offers-slider">
-                                    <div class="fly-itable">
-                                        <div class="fly-icell">
-                                            <span class="fly-offers-separator"></span>
-                                            <h2 class="fly-offers-title">Bruschetta</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li data-special-offers-slider="1" style="background-image: url('../images/Special-Offers-Slider/offer-4.jpg')">
-                            <a href="#" class="fly-wrap-offers">
-                                <div class="fly-content-offers-slider">
-                                    <div class="fly-itable">
-                                        <div class="fly-icell">
-                                            <span class="fly-offers-separator"></span>
-                                            <h2 class="fly-offers-title">Pancakes</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li data-special-offers-slider="1" style="background-image: url('../images/Special-Offers-Slider/offer-5.jpg')">
-                            <a href="#" class="fly-wrap-offers">
-                                <div class="fly-content-offers-slider">
-                                    <div class="fly-itable">
-                                        <div class="fly-icell">
-                                            <span class="fly-offers-separator"></span>
-                                            <h2 class="fly-offers-title">Sandwich</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li data-special-offers-slider="1" style="background-image: url('../images/Special-Offers-Slider/offer-6.jpg')">
-                            <a href="#" class="fly-wrap-offers">
-                                <div class="fly-content-offers-slider">
-                                    <div class="fly-itable">
-                                        <div class="fly-icell">
-                                            <span class="fly-offers-separator"></span>
-                                            <h2 class="fly-offers-title">Bruschetta</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        
-                        <li data-special-offers-slider="1" style="background-image: url('../images/Special-Offers-Slider/offer-7.jpg')">
-                            <a href="#" class="fly-wrap-offers">
-                                <div class="fly-content-offers-slider">
-                                    <div class="fly-itable">
-                                        <div class="fly-icell">
-                                            <span class="fly-offers-separator"></span>
-                                            <h2 class="fly-offers-title">Sausage Assortment</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
+            <!--Logo-->
+            <div class="fly-wrap-logo"><a class="fly-logo" href="https://www.club11.am/en/index.html"> <img
+                        src="../images/11_logo.png" alt="Logo" /> </a></div>
+            <div class="fly-nav-wrap fly-nav-right">
+                <nav class="fly-site-navigation secondary-navigation" id="fly-menu-secondary">
+                    <ul class="fly-nav-menu">
+                        <li><a href="https://www.club11.am/en/menu.html">MENU</a></li>
+                        <!-- <li><a href="news.html">NEWS</a></li> -->
+                        <li class="menu-item-has-children"><a href="https://www.club11.am/en/contact.html">CONTACT</a>
                         </li>
                     </ul>
-                    
-                    <!--Offers Slider Control-->
-                    <div class="fly-offers-slider-control" style="background-image: url('../images/Special-Offers-Slider/main2.png');">
-                        <div class="fly-itable">
-                            <div class="fly-icell">
-                                <div class="fly-slider-control-wrap-title">
-                                    <h3 class="fly-slider-control-title-before">Special</h3>
-                                    <h2 class="fly-slider-control-title-after">Kitchen</h2>
-                                    <a class="fly-special-offers-btn fly-btn fly-btn-1 fly-btn-md fly-btn-color-3" href="https://www.club11.am/en/menu.html">
-                                        <span>MENU</span>
-                                    </a>
+                </nav>
+            </div>
+        </header>
+        <div id="main" class="site-main" role="main">
+            <!--Slider Full-->
+            <section class="fly-slider-full">
+                <div class="main-carousel default">
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <!-- Carousel items -->
+                            <div class="item active parallax"
+                                style="background-image:url(../images/Home-Slider/slide-2.jpg);">
+                                <div class="container">
+                                    <div class="fly-itable">
+                                        <div class="fly-icell">
+                                            <div class="fly-wrap-text-slider">
+                                                <h1 class="fly-slider-title-before">WONDERFUL ATMOSPHERE<br>FULLY
+                                                    STOCKED BAR</h1>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="fly-wrap-nav-slider">
-                                    <a id="special-offers-slider-prev" class="prev" href="#">
-                                        <i class="fa fa-angle-left"></i>
-                                    </a>
-                                    <a id="special-offers-slider-next" class="next" href="#">
-                                        <i class="fa fa-angle-right"></i>
-                                    </a>
+                            </div>
+                            <!-- Carousel items -->
+                            <div class="item parallax" style="background-image:url(../images/Home-Slider/slide-1.jpg);">
+                                <div class="container">
+                                    <div class="fly-itable">
+                                        <div class="fly-icell">
+                                            <div class="fly-wrap-text-slider">
+                                                <h1 class="fly-slider-title-before">DELICIOUS APPETIZERS<br>EXCELLENT
+                                                    SERVICE</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel items -->
+                            <div class="item parallax" style="background-image:url(../images/Home-Slider/slide-3.jpg);">
+                                <div class="container">
+                                    <div class="fly-itable">
+                                        <div class="fly-icell">
+                                            <div class="fly-wrap-text-slider">
+                                                <h1 class="fly-slider-title-before">TASTEFUL MUSIC<br>AMAZING DANCES
+                                                </h1>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!--Carousel Indicator-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
                     </div>
-                    
-                    <!--End Offers Slider Control-->
                 </div>
-            </div>
-        </section>
-        <!--End Section Special Offers Slider-->
-        <!--Section (Chef of the Month)-->
-        <section class="fly-info-box container-min">
+            </section>
+            <!--End Slider Full-->
+            <!--Restaurant Menu (HomePage)-->
+            <section class="fly-restaurant-menu">
+                <!--Food-->
+                <div class="fly-menu-category col-sm-6 col-md-6 col-xs-12">
+                    <div class="fly-menu-image-array" data-time-change="3000">
+                        <!-- Image Size (Recommended 700px x 360px "Heights images be equal") -->
+                        <img src="../images/Menu/food-7.jpg" alt="Food 7" class="active-image" />
+                    </div>
+                    <div class="fly-menu-content">
+                        <div class="fly-itable">
+                            <div class="fly-icell"><i class="flyicon-buzzer"></i>
+                                <h3 class="fly-title-menu">FOOD</h3>
+                                <a href="https://www.club11.am/en/menu.html"
+                                    class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"><span>SHOW MORE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Drinks-->
+                <div class="fly-menu-category col-sm-6 col-md-6 col-xs-12">
+                    <div class="fly-menu-image-array" data-time-change="3000">
+                        <!-- Image Size (Recommended 700px x 360px "Heights images be equal") -->
+                        <img src="../images/Menu/home-img.jpg" alt="Drinks 7" class="active-image" />
+                    </div>
+                    <div class="fly-menu-content">
+                        <div class="fly-itable">
+                            <div class="fly-icell"><i class="flyicon-drink"></i>
+                                <h3 class="fly-title-menu">DRINKS</h3>
+                                <a href="https://www.club11.am/en/menu.html"
+                                    class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"><span>SHOW MORE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End Restaurant Menu (HomePage)--> <!--Section (Info Restaurant)-->
+            <section class="fly-info-box container-min">
+                <div class="container">
+                    <div class="row">
+                        <div class="fly-divider-space space-md"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="fly-info-box-header">
+                                <h3 class="fly-info-box-title">CLUB 11</h3>
+                                <div class="fly-info-box-divider"></div>
+                                <h3 class="fly-info-box-title" style="font-size: 22px;">
+                                    Entrance Fee 1500 Դ.
+                                    <br />
+                                    Free for girls
+                                    <br />until 22:00
+                                </h3>
+                                <div class="fly-info-box-divider"></div>
+                            </div>
+                            <div class="fly-info-box-content">
+                                Come and enjoy drinks prepared by professional bartenders and dance to the best hits of
+                                all time.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fly-divider-space space-md"></div>
+                    </div>
+                </div>
+            </section>
+            <!--End Section (Info Restaurant)-->
+            <!--Section Special Offers Slider-->
+            <section class="fly-wrap-slider-special-offers">
+                <div class="row">
+                    <div class="fly-slider-special-offers">
+                        <ul id="fly-slider-special-offers">
+                            <li data-special-offers-slider="1"
+                                style="background-image: url('../images/Special-Offers-Slider/offer-1.jpg')">
+                                <a href="#" class="fly-wrap-offers">
+                                    <div class="fly-content-offers-slider">
+                                        <div class="fly-itable">
+                                            <div class="fly-icell">
+                                                <span class="fly-offers-separator"></span>
+                                                <h2 class="fly-offers-title">Bruschetta</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-special-offers-slider="1"
+                                style="background-image: url('../images/Special-Offers-Slider/offer-2.jpg')">
+                                <a href="#" class="fly-wrap-offers">
+                                    <div class="fly-content-offers-slider">
+                                        <div class="fly-itable">
+                                            <div class="fly-icell">
+                                                <span class="fly-offers-separator"></span>
+                                                <h2 class="fly-offers-title">Cheese Assortment</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-special-offers-slider="1"
+                                style="background-image: url('../images/Special-Offers-Slider/offer-3.jpg')">
+                                <a href="#" class="fly-wrap-offers">
+                                    <div class="fly-content-offers-slider">
+                                        <div class="fly-itable">
+                                            <div class="fly-icell">
+                                                <span class="fly-offers-separator"></span>
+                                                <h2 class="fly-offers-title">Bruschetta</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-special-offers-slider="1"
+                                style="background-image: url('../images/Special-Offers-Slider/offer-4.jpg')">
+                                <a href="#" class="fly-wrap-offers">
+                                    <div class="fly-content-offers-slider">
+                                        <div class="fly-itable">
+                                            <div class="fly-icell">
+                                                <span class="fly-offers-separator"></span>
+                                                <h2 class="fly-offers-title">Pancakes</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-special-offers-slider="1"
+                                style="background-image: url('../images/Special-Offers-Slider/offer-5.jpg')">
+                                <a href="#" class="fly-wrap-offers">
+                                    <div class="fly-content-offers-slider">
+                                        <div class="fly-itable">
+                                            <div class="fly-icell">
+                                                <span class="fly-offers-separator"></span>
+                                                <h2 class="fly-offers-title">Sandwich</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-special-offers-slider="1"
+                                style="background-image: url('../images/Special-Offers-Slider/offer-6.jpg')">
+                                <a href="#" class="fly-wrap-offers">
+                                    <div class="fly-content-offers-slider">
+                                        <div class="fly-itable">
+                                            <div class="fly-icell">
+                                                <span class="fly-offers-separator"></span>
+                                                <h2 class="fly-offers-title">Bruschetta</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li data-special-offers-slider="1"
+                                style="background-image: url('../images/Special-Offers-Slider/offer-7.jpg')">
+                                <a href="#" class="fly-wrap-offers">
+                                    <div class="fly-content-offers-slider">
+                                        <div class="fly-itable">
+                                            <div class="fly-icell">
+                                                <span class="fly-offers-separator"></span>
+                                                <h2 class="fly-offers-title">Sausage Assortment</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!--Offers Slider Control-->
+                        <div class="fly-offers-slider-control"
+                            style="background-image: url('../images/Special-Offers-Slider/main2.png');">
+                            <div class="fly-itable">
+                                <div class="fly-icell">
+                                    <div class="fly-slider-control-wrap-title">
+                                        <h3 class="fly-slider-control-title-before">Special</h3>
+                                        <h2 class="fly-slider-control-title-after">Kitchen</h2>
+                                        <a class="fly-special-offers-btn fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"
+                                            href="https://www.club11.am/en/menu.html">
+                                            <span>MENU</span>
+                                        </a>
+                                    </div>
+                                    <div class="fly-wrap-nav-slider">
+                                        <a id="special-offers-slider-prev" class="prev" href="#">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a id="special-offers-slider-next" class="next" href="#">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--End Offers Slider Control-->
+                    </div>
+                </div>
+            </section>
+            <!--End Section Special Offers Slider-->
+            <!--Section (Chef of the Month)-->
+            <section class="fly-info-box container-min">
+                <div class="container">
+                    <div class="row">
+                        <div class="fly-divider-space space-md"></div>
+                    </div>
+                    <div class=" row ">
+                        <div class="col-sm-12">
+                            <div class="fly-info-box-header">
+                                <h3 class="fly-info-box-title">BAR</h3>
+                            </div>
+                            <div class="fly-info-box-image">
+                                <img src="../images/chef-of-the-month.jpg" alt="Chef of the Month" />
+                            </div>
+                            <div class="fly-info-box-content">
+                                For those who love special cocktails, our bartenders will create the most delicious and
+                                mood-setting signature and classic cocktails.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="fly-divider-space space-md"></div>
+                    </div>
+                </div>
+            </section>
+            <!--End Section (Chef of the Month)-->
+            <!--Section Home Gallery-->
+            <section class="fly-home-gallery">
+                <!--Home Gallery Col1-->
+                <div class="fly-home-gallery-col col-sm-4">
+                    <div class="fly-home-gallery-block fly-home-gallery-height-md"
+                        style="background-image: url('../images/Home-Gallery/image-1.jpg')">
+                        <a href="../images/Home-Gallery/image-1.jpg" data-rel="prettyPhoto[1]"
+                            class="fly-home-gallery-overlay">
+                            <div class="fly-itable">
+                                <div class="fly-icell">
+                                    <i class="flyicon-expand"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fly-home-gallery-block fly-home-gallery-height-md"
+                        style="background-image: url('../images/Home-Gallery/image-2.jpg')">
+                        <a href="../images/Home-Gallery/image-2.jpg" data-rel="prettyPhoto[1]"
+                            class="fly-home-gallery-overlay">
+                            <div class="fly-itable">
+                                <div class="fly-icell">
+                                    <i class="flyicon-expand"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fly-home-gallery-block fly-home-gallery-height-md"
+                        style="background-image: url('../images/Home-Gallery/image-3.jpg')">
+                        <a href="../images/Home-Gallery/image-3.jpg" data-rel="prettyPhoto[1]"
+                            class="fly-home-gallery-overlay">
+                            <div class="fly-itable">
+                                <div class="fly-icell">
+                                    <i class="flyicon-expand"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fly-home-gallery-col col-sm-4">
+                    <div class="fly-home-gallery-block-title fly-home-gallery-height-md">
+                        <div class="fly-itable">
+                            <div class="fly-icell">
+                                <h5 class="fly-home-gallery-before-title"><span>Beautiful Moments</span></h5>
+                                <h3 class="fly-home-gallery-title">CLUB 11</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="fly-home-gallery-block fly-home-gallery-height-lg"
+                        style="background-image: url('../images/Home-Gallery/image-4.jpg')">
+                        <a href="../images/Home-Gallery/image-4.jpg" data-rel="prettyPhoto[1]"
+                            class="fly-home-gallery-overlay">
+                            <div class="fly-itable">
+                                <div class="fly-icell">
+                                    <i class="flyicon-expand"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fly-home-gallery-col col-sm-4">
+                    <div class="fly-home-gallery-block fly-home-gallery-height-lg"
+                        style="background-image: url('../images/Home-Gallery/image-5.jpg')">
+                        <a href="../images/Home-Gallery/image-5.jpg" data-rel="prettyPhoto[1]"
+                            class="fly-home-gallery-overlay">
+                            <div class="fly-itable">
+                                <div class="fly-icell">
+                                    <i class="flyicon-expand"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fly-home-gallery-block fly-home-gallery-height-md"
+                        style="background-image: url('../images/Home-Gallery/image-6.jpg')">
+                        <a href="../images/Home-Gallery/image-6.jpg" data-rel="prettyPhoto[1]"
+                            class="fly-home-gallery-overlay">
+                            <div class="fly-itable">
+                                <div class="fly-icell"><i class="flyicon-expand"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--End Section Home Gallery-->
+        </div>
+        <!--Footer-->
+        <footer class="fly-site-footer">
             <div class="container">
                 <div class="row">
-                    <div class="fly-divider-space space-md"></div>
+                    <div class="fly-divider-space space-sm"></div>
                 </div>
-                <div class=" row ">
-                    <div class="col-sm-12">
-                        <div class="fly-info-box-header">
-                            <h3 class="fly-info-box-title">BAR</h3>
-                        </div>
-                        <div class="fly-info-box-image">
-                            <img src="../images/chef-of-the-month.jpg" alt="Chef of the Month"/>
-                        </div>
-                        <div class="fly-info-box-content">
-                            For those who love special cocktails, our bartenders will create the most delicious and mood-setting signature and classic cocktails.
-                        </div>
-                    </div>
-                </div>                
                 <div class="row">
-                    <div class="fly-divider-space space-md"></div>
-                </div>
-            </div>
-        </section>
-        <!--End Section (Chef of the Month)-->
-        <!--Section Home Gallery-->
-        <section class="fly-home-gallery">
-            <!--Home Gallery Col1-->
-            <div class="fly-home-gallery-col col-sm-4">
-                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('../images/Home-Gallery/image-1.jpg')">
-                    <a href="../images/Home-Gallery/image-1.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
-                        <div class="fly-itable">
-                            <div class="fly-icell">
-                                <i class="flyicon-expand"></i>
-                            </div>
+                    <div class="fly-footer-content clearfix">
+                        <a class="fly-footer-logo" href="https://www.club11.am/en/index.html">
+                            <img width="80" src="../images/11_logo.png" alt="Footer Logo" />
+                        </a>
+                        <div class="fly-footer-info"> Baghramyan 17
+                            <br />
+                            <a href="callto:+37491558172">+37491558172</a>
+                            <br />
+                            <a href="callto:+37441321011">+37441321011</a>
                         </div>
-                    </a>
-                </div>
-                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('../images/Home-Gallery/image-2.jpg')">
-                    <a href="../images/Home-Gallery/image-2.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
-                        <div class="fly-itable">
-                            <div class="fly-icell">
-                                <i class="flyicon-expand"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('../images/Home-Gallery/image-3.jpg')">
-                    <a href="../images/Home-Gallery/image-3.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
-                        <div class="fly-itable">
-                            <div class="fly-icell">
-                                <i class="flyicon-expand"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="fly-home-gallery-col col-sm-4">
-                <div class="fly-home-gallery-block-title fly-home-gallery-height-md">
-                    <div class="fly-itable">
-                        <div class="fly-icell">
-                            <h5 class="fly-home-gallery-before-title"><span>Beautiful Moments</span></h5>
-                            <h3 class="fly-home-gallery-title">CLUB 11</h3>
-                        </div>
-                        
                     </div>
                 </div>
-                <div class="fly-home-gallery-block fly-home-gallery-height-lg" style="background-image: url('../images/Home-Gallery/image-4.jpg')">
-                    <a href="../images/Home-Gallery/image-4.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
-                        <div class="fly-itable">
-                            <div class="fly-icell">
-                                <i class="flyicon-expand"></i>
-                            </div>
-                        </div>
-                    </a></div>
-            </div>
-            <div class="fly-home-gallery-col col-sm-4">
-                <div class="fly-home-gallery-block fly-home-gallery-height-lg" style="background-image: url('../images/Home-Gallery/image-5.jpg')">
-                    <a href="../images/Home-Gallery/image-5.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
-                        <div class="fly-itable">
-                            <div class="fly-icell">
-                                <i class="flyicon-expand"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('../images/Home-Gallery/image-6.jpg')">
-                    <a href="../images/Home-Gallery/image-6.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
-                        <div class="fly-itable">
-                            <div class="fly-icell"><i class="flyicon-expand"></i></div>
-                        </div>
-                    </a>
+                <div class="row">
+                    <div class="fly-divider-space space-sm"></div>
                 </div>
             </div>
-        </section>
-        <!--End Section Home Gallery-->
-    </div>
-    <!--Footer-->
-    <footer class="fly-site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="fly-divider-space space-sm"></div>
-            </div>
-            <div class="row">
-                <div class="fly-footer-content clearfix">
-                    <a class="fly-footer-logo" href="https://www.club11.am/en/index.html">
-                        <img width="80" src="../images/11_logo.png" alt="Footer Logo"/>
-                    </a>
-                    <div class="fly-footer-info">  Baghramyan 17
-                        <br />
-                        <a href="callto:+37491558172">+37491558172</a>
-                        <br />
-                        <a href="callto:+37441321011">+37441321011</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="fly-divider-space space-sm"></div>
-            </div>
-        </div>
-    </footer>
-    
-</div>
-<!-- main JS libs  -->
-<script src="../js/lib/jquery-1.11.3.min.js"></script>
-<script src="../js/lib/bootstrap.min.js"></script>
+        </footer>
 
-<!--[if lt IE 9]>
+    </div>
+    <!-- main JS libs  -->
+    <script src="../js/lib/jquery-1.11.3.min.js"></script>
+    <script src="../js/lib/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
 <script src="js/lib/html5shiv.js"></script>
 <script src="js/lib/respond.min.js"></script>
 <![endif]-->
 
-<!-- Touch Swipe Plugin -->
-<script src="../js/jquery.touchSwipe.min.js"></script>
-<!--CarouFredSel Plugin-->
-<script src="../js/jquery.carouFredSel-6.2.1-packed.js"></script>
-<!--Categories Slider-->
-<script src="../js/jquery.prettyPhoto.js"></script>
-<!-- DateTime Picker -->
-<script src="../js/jquery.datetimepicker.js"></script>
-<!-- Scroll To Top Button -->
-<script src="../js/scrollTo.min.js"></script>
-<!-- Parallax -->
-<script src="../js/jquery.parallax-1.1.3.js"></script>
-<!-- Mobile menu (mmenu) -->
-<script src="../js/jquery.mmenu.min.all.js"></script>
-<!--General JS-->
-<script src="../js/general.js"></script>
+    <!-- Touch Swipe Plugin -->
+    <script src="../js/jquery.touchSwipe.min.js"></script>
+    <!--CarouFredSel Plugin-->
+    <script src="../js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <!--Categories Slider-->
+    <script src="../js/jquery.prettyPhoto.js"></script>
+    <!-- DateTime Picker -->
+    <script src="../js/jquery.datetimepicker.js"></script>
+    <!-- Scroll To Top Button -->
+    <script src="../js/scrollTo.min.js"></script>
+    <!-- Parallax -->
+    <script src="../js/jquery.parallax-1.1.3.js"></script>
+    <!-- Mobile menu (mmenu) -->
+    <script src="../js/jquery.mmenu.min.all.js"></script>
+    <!--General JS-->
+    <script src="../js/general.js"></script>
 </body>
+
 </html>
